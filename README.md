@@ -1,6 +1,9 @@
-# Configurations
-Multiple configurations for tools, libraries, frameworks I use.
+This repo contains:
+- Different plugins and utilities for IDEs and Text Editors
+- Configurations for different tools
+
+## Text Editors
+- [Sublime Text](/sublime/README.md)
 
 ## Tools
-
-### [Sublime](/sublime/README.md)
+- [Prettier](/prettier/README.md)

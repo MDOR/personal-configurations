@@ -7,3 +7,4 @@ This repo contains:
 
 ## Tools
 - [Prettier](/prettier/README.md)
+- [GIT](/git/README.md)

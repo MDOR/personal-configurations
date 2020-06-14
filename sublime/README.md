@@ -33,13 +33,34 @@ It will allow to configure the existing configuration, overwritting the default 
     "Desktop.ini",
     "*.pyc",
     "._*",
-    "*.log",
     "Thumbs.db",
     ".Spotlight-V100",
     ".Trashes"
   ],
   "find_selected_text": true,
-  "folder_exclude_patterns": [".git", "node_modules", ".yarn", ".next"],
+  "folder_exclude_patterns": [
+    ".git",
+    "web_modules",
+    "node_modules",
+    "jspm_packages",
+    "bower_components",
+    ".yarn",
+    ".next",
+    ".nuxt",
+    ".vuepress/dist",
+    "out",
+    "lib",
+    "dist",
+    "build",
+    "target",
+    ".eslintcache",
+    ".parcel-cache",
+    ".grunt",
+    ".sass-cache",
+    "coverage",
+    "lib-cov",
+    ".nyc_output"
+  ],
   "font_size": 11,
   "highlight_modified_tabs": true,
   "hot_exit": false,
@@ -158,7 +179,6 @@ Do not recommend to use while using [Prettier](https://prettier.io/)[Editor Conf
     "vueIndentScriptAndStyle": false
   }
 }
-
 ```
 
 ### [SCSS](https://packagecontrol.io/packages/Sass)
